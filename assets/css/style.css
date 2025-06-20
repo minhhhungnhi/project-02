@@ -112,6 +112,9 @@ a {
 
 .fix-header {
     padding-top: 24px;
+    position: sticky;
+    top: -24px;
+    z-index: 1;
 }
 
 .fix-header .navbar {
